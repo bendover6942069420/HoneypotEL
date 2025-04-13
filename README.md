@@ -1,106 +1,125 @@
-# HONEYPOT-EL: Medium Interaction Honeypot
+# HONEYPOT-EL: Medium Interaction Honeypot Demonstration Guide
 
-A sophisticated medium-interaction honeypot designed to simulate a login page, track intrusion attempts, and provide detailed analytics. Built with Python, Flask, and Dash, it offers real-time monitoring and robust security features.
+This guide explains the components of the HONEYPOT-EL project and provides a step-by-step demonstration of its functionality. HONEYPOT-EL is a medium-interaction honeypot built with Python, Flask, and Dash to simulate a login page, track intrusion attempts, and visualize attack data in real-time.
 
-## Project Overview
-
-HONEYPOT-EL simulates a realistic login page to attract and analyze unauthorized access attempts. It logs detailed information about attackers, provides real-time analytics through a dashboard, and sends alerts for suspicious activity. The system is safe, never allowing actual access, and is designed for easy deployment and monitoring.
-
-## Key Components
+## Project Components
 
 ### 1. Main Application (`app.py`)
-- **Framework**: Flask
+- **Purpose**: Core honeypot functionality
 - **Features**:
-  - Fake login page that rejects all login attempts
-  - Rate limiting: 5 attempts/minute, 100 attempts/hour
-  - Geolocation tracking of attackers
-  - User agent analysis for identifying bots and browsers
-  - Email alerts for suspicious activity (triggered after 3 attempts from the same IP)
-  - Comprehensive logging of all attempts
+  - Handles login page routing
+  - Logs attack attempts
+  - Tracks IP geolocation
+  - Enforces rate limiting (5 attempts/minute)
+  - Sends email alerts for suspicious activity
+  - Integrates with the analytics dashboard
 
 ### 2. Analytics Dashboard (`dashboard.py`)
+- **Purpose**: Real-time attack visualization
 - **Framework**: Dash and Plotly
 - **Features**:
-  - Real-time visualizations updated every 30 seconds
-  - Displays:
-    - Total login attempts
-    - Unique IP addresses
-    - Most common usernames
-    - Geographic distribution of attacks (world map)
-    - Time-based attack trends
-    - User agent statistics
+  - Total attempts counter
+  - Unique IP tracker
+  - Geographic attack map
+  - Username/password analysis
+  - User agent statistics
+  - Auto-updates every 30 seconds
 
-### 3. Frontend Components
-- **Login Page** (`templates/login.html`):
-  - Professional, responsive login interface
-  - Username and password fields with error messaging
-  - Styled to mimic a legitimate system
-- **Styling** (`static/css/`):
-  - `style.css`: Clean, responsive design for the login page
-  - `dashboard.css`: Grid-based, card-styled layout for the analytics dashboard
+### 3. Login Page (`templates/login.html`)
+- **Purpose**: Honeypot frontend
+- **Features**:
+  - Mimics a legitimate admin login page
+  - Collects username/password attempts
+  - Displays error messages for failed logins
 
-### 4. Configuration
-- **File**: `.env`
-- **Settings**:
-  - Email configuration for alerts
-  - API keys for geolocation services
-  - Flask secret key
-  - Customizable for different deployment environments
+### 4. Styling (`static/css/`)
+- **style.css**: Styles the login page with a professional, responsive design
+- **dashboard.css**: Styles the analytics dashboard with a clean, grid-based layout
 
-### 5. Dependencies (`requirements.txt`)
-- Key packages:
-  - Flask and extensions (`flask-limiter`, `flask-mail`)
-  - Dash and Plotly for analytics
-  - Pandas for data processing
-  - Requests for API calls
-  - User-agents for browser fingerprinting
+## Step-by-Step Demonstration
 
-## How It Works
+This section guides you through setting up and testing HONEYPOT-EL. Follow these steps to explore its features.
 
-### 1. Attack Detection
-- Attackers encounter a professional-looking login page at `http://localhost:8080/`.
-- Every login attempt is logged with:
-  - Timestamp
-  - IP address
-  - Username and password attempted
-  - Geolocation data
-  - Browser/User Agent details
-  - Full request headers
+### Prerequisites
+- Clone the repository and install dependencies: `pip install -r requirements.txt`
+- Configure the `.env` file (e.g., email settings, API keys)
+- Start the server in debug mode: `python app.py`
 
-### 2. Security Features
-- **Rate Limiting**: Prevents brute-force attacks
-- **Geolocation**: Maps attacker origins
-- **User Agent Analysis**: Identifies automated scripts vs. human attackers
-- **Email Alerts**: Notifies administrators of suspicious activity
-- **Logging**: Stores detailed records in `honeypot.log`
+The server will run on `http://localhost:8888`.
 
-### 3. Monitoring and Analysis
-- **Analytics Dashboard** (`http://localhost:8080/dashboard/`):
-  - Visualizes attack patterns in real time
-  - Shows geographic distribution, common usernames, and browser statistics
-  - Tracks total attempts and unique attackers
-- **Log File**: `honeypot.log` provides raw data for further analysis
+### Step 1: Accessing the Honeypot
+1. **Open in Browser**:
+   - **Login Page**: `http://localhost:8888`
+   - **Dashboard**: `http://localhost:8888/dashboard`
+2. **Access from Other Devices** (on the same network):
+   - **Login Page**: `http://192.168.0.100:8888`
+   - **Dashboard**: `http://192.168.0.100:8888/dashboard`
 
-## Access Points
-- **Login Page**: `http://localhost:8080/`
-- **Analytics Dashboard**: `http://localhost:8080/dashboard/`
-- **Log File**: `honeypot.log`
+### Step 2: Testing Attack Detection
+1. **Basic Login Attempt**:
+   - Navigate to `http://localhost:8888`
+   - Enter:
+     - Username: `admin`
+     - Password: `password123`
+   - **Observe**:
+     - 1-second processing delay
+     - "Invalid credentials" error message
 
-## Design Principles
-HONEYPOT-EL is:
-- **Realistic**: Engages attackers with a convincing interface
-- **Secure**: Never allows actual access
-- **Informative**: Collects comprehensive attack data
-- **Monitorable**: Provides real-time insights via dashboard
-- **Alerting**: Notifies administrators of suspicious patterns
+2. **Test Rate Limiting**:
+   - Attempt login 6 times in quick succession
+   - After 5 attempts, a rate limit message appears
+   - Wait 1 minute for the limit to reset
 
-## Getting Started
-1. Clone the repository.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Configure the `.env` file with your settings.
-4. Run the application: `python app.py`
-5. Access the login page at `http://localhost:8080/` and the dashboard at `http://localhost:8080/dashboard/`.
+3. **View Real-time Analytics**:
+   - Open `http://localhost:8888/dashboard`
+   - **Observe**:
+     - Total attempts counter
+     - Your IP listed as a unique attacker
+     - Your location on the world map
+     - Browser/User-Agent information
+     - Time-based graph of attempts
+
+### Step 3: Advanced Features
+1. **Email Alert Testing**:
+   - Make 3 login attempts from the same IP
+   - If email is configured in `.env`, check for an alert in your inbox
+
+2. **Geographic Tracking**:
+   - Access the honeypot from a different device or network (if possible)
+   - Check the dashboard’s world map for updated attacker locations
+
+3. **Attack Pattern Analysis**:
+   - Try different usernames (e.g., `root`, `admin`, `administrator`)
+   - On the dashboard, navigate to the "Attack Patterns" tab
+   - View the most common usernames attempted
+
+### Step 4: Monitoring
+1. **Real-time Updates**:
+   - Keep the dashboard open at `http://localhost:8888/dashboard`
+   - Make additional login attempts
+   - Watch metrics update every 30 seconds
+
+2. **Log Analysis**:
+   - Check `honeypot.log` for detailed records
+   - Each entry includes:
+     - Timestamp
+     - IP address
+     - Username/password
+     - Geolocation
+     - Browser details
+
+## Tips for Testing
+- Simulate multiple attackers using different browsers or devices
+- Test common username/password combinations (e.g., `admin/admin`, `root/password`)
+- Monitor the dashboard for real-time updates
+- Verify email alerts if configured
+- Review `honeypot.log` for raw attack data
+
+## Notes
+- Ensure the `.env` file is properly configured for email alerts and geolocation APIs
+- For external access, adjust firewall settings or use a public IP
+- The honeypot is designed to be safe, never allowing actual access
 
 ---
 
-**Note**: Ensure proper configuration of API keys and email settings for full functionality. For deployment, adjust rate limits and alerting thresholds as needed.
+This demonstration showcases HONEYPOT-EL’s ability to detect, log, and analyze intrusion attempts while providing real-time insights through its dashboard.
