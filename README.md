@@ -1,1 +1,2 @@
-# HoneypotEL
+# HONEYPOT-EL
+Medium Interaction Honeypot

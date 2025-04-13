@@ -1,0 +1,1477 @@
+2025-04-13 04:20:49,995 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+2025-04-13 04:20:49,995 - [33mPress CTRL+C to quit[0m
+2025-04-13 04:21:09,456 - 127.0.0.1 - - [13/Apr/2025 04:21:09] "GET / HTTP/1.1" 200 -
+2025-04-13 04:21:09,475 - 127.0.0.1 - - [13/Apr/2025 04:21:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-13 04:21:09,479 - 127.0.0.1 - - [13/Apr/2025 04:21:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-13 04:21:19,574 - {"timestamp": "2025-04-13T04:21:19.574561", "ip_address": "127.0.0.1", "username": "wangchen ", "password": "1234", "success": false}
+2025-04-13 04:21:20,575 - 127.0.0.1 - - [13/Apr/2025 04:21:20] "POST /login HTTP/1.1" 200 -
+2025-04-13 04:21:20,623 - 127.0.0.1 - - [13/Apr/2025 04:21:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-13 04:33:57,324 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.100:8080
+2025-04-13 04:33:57,324 - [33mPress CTRL+C to quit[0m
+2025-04-13 04:34:14,193 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2025-04-13 04:34:14,199 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-13 04:34:14,213 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "GET /dashboard/_dash-component-suites/dash/deps/polyfill@7.v2_14_2m1744498783.12.1.min.js HTTP/1.1" 200 -
+2025-04-13 04:34:14,215 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "GET /dashboard/_dash-component-suites/dash/deps/react@16.v2_14_2m1744498783.14.0.min.js HTTP/1.1" 200 -
+2025-04-13 04:34:14,215 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "GET /dashboard/_dash-component-suites/dash/deps/react-dom@16.v2_14_2m1744498783.14.0.min.js HTTP/1.1" 200 -
+2025-04-13 04:34:14,215 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "GET /dashboard/_dash-component-suites/dash/deps/prop-types@15.v2_14_2m1744498783.8.1.min.js HTTP/1.1" 200 -
+2025-04-13 04:34:14,217 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:14,217 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "GET /dashboard/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v2_14_2m1744498783.min.js HTTP/1.1" 200 -
+2025-04-13 04:34:14,218 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:14,218 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:14,219 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:14,219 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:14,220 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components-shared.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:14,220 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "[31m[1mGET /dashboard/_dash-component-suites/dash/html/dash_html_components.v2_0_15m1744498784.min.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:14,221 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "[31m[1mGET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_8m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:14,252 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:14,252 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:14,274 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:14,275 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components-shared.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:14,297 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:14,298 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "[31m[1mGET /dashboard/_dash-component-suites/dash/html/dash_html_components.v2_0_15m1744498784.min.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:14,320 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:14,321 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "[31m[1mGET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_8m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:14,359 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-04-13 04:34:14,361 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-04-13 04:34:14,371 - 127.0.0.1 - - [13/Apr/2025 04:34:14] "GET /dashboard/_favicon.ico?v=2.14.2 HTTP/1.1" 200 -
+2025-04-13 04:34:23,386 - 127.0.0.1 - - [13/Apr/2025 04:34:23] "GET / HTTP/1.1" 200 -
+2025-04-13 04:34:23,395 - 127.0.0.1 - - [13/Apr/2025 04:34:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-13 04:34:23,403 - 127.0.0.1 - - [13/Apr/2025 04:34:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-13 04:34:37,463 - {"timestamp": "2025-04-13T04:34:37.463275", "ip_address": "127.0.0.1", "username": "Druk", "password": "1234567890", "country": "Local", "city": "Local", "user_agent": "PC / Ubuntu / Firefox 137.0", "headers": {"Host": "localhost:8080", "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Content-Type": "application/x-www-form-urlencoded", "Content-Length": "33", "Origin": "http://localhost:8080", "Connection": "keep-alive", "Referer": "http://localhost:8080/", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+2025-04-13 04:34:40,279 - Error sending email alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-306df401abdsm8163925a91.43 - gsmtp')
+2025-04-13 04:34:41,280 - 127.0.0.1 - - [13/Apr/2025 04:34:41] "POST /login HTTP/1.1" 200 -
+2025-04-13 04:34:41,309 - 127.0.0.1 - - [13/Apr/2025 04:34:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-13 04:34:42,837 - 127.0.0.1 - - [13/Apr/2025 04:34:42] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-13 04:34:42,850 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:42,850 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:42,851 - 127.0.0.1 - - [13/Apr/2025 04:34:42] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:42,852 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:42,852 - 127.0.0.1 - - [13/Apr/2025 04:34:42] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components-shared.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:42,853 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:42,854 - 127.0.0.1 - - [13/Apr/2025 04:34:42] "[31m[1mGET /dashboard/_dash-component-suites/dash/html/dash_html_components.v2_0_15m1744498784.min.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:42,855 - 127.0.0.1 - - [13/Apr/2025 04:34:42] "[31m[1mGET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_8m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:42,883 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:42,883 - 127.0.0.1 - - [13/Apr/2025 04:34:42] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:42,886 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:42,887 - 127.0.0.1 - - [13/Apr/2025 04:34:42] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components-shared.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:42,889 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:42,889 - 127.0.0.1 - - [13/Apr/2025 04:34:42] "[31m[1mGET /dashboard/_dash-component-suites/dash/html/dash_html_components.v2_0_15m1744498784.min.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:42,891 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:42,891 - 127.0.0.1 - - [13/Apr/2025 04:34:42] "[31m[1mGET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_8m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:42,902 - 127.0.0.1 - - [13/Apr/2025 04:34:42] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-04-13 04:34:42,902 - 127.0.0.1 - - [13/Apr/2025 04:34:42] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-04-13 04:34:45,271 - 127.0.0.1 - - [13/Apr/2025 04:34:45] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-13 04:34:45,291 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:45,291 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:45,293 - 127.0.0.1 - - [13/Apr/2025 04:34:45] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components-shared.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:45,295 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:45,295 - 127.0.0.1 - - [13/Apr/2025 04:34:45] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:45,297 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:45,298 - 127.0.0.1 - - [13/Apr/2025 04:34:45] "[31m[1mGET /dashboard/_dash-component-suites/dash/html/dash_html_components.v2_0_15m1744498784.min.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:45,300 - 127.0.0.1 - - [13/Apr/2025 04:34:45] "[31m[1mGET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_8m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:45,337 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:45,337 - 127.0.0.1 - - [13/Apr/2025 04:34:45] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:45,359 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:45,359 - 127.0.0.1 - - [13/Apr/2025 04:34:45] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components-shared.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:45,381 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:45,382 - 127.0.0.1 - - [13/Apr/2025 04:34:45] "[31m[1mGET /dashboard/_dash-component-suites/dash/html/dash_html_components.v2_0_15m1744498784.min.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:45,401 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:45,402 - 127.0.0.1 - - [13/Apr/2025 04:34:45] "[31m[1mGET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_8m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:45,426 - 127.0.0.1 - - [13/Apr/2025 04:34:45] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-04-13 04:34:45,427 - 127.0.0.1 - - [13/Apr/2025 04:34:45] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-04-13 04:34:52,364 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-13 04:34:52,396 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,397 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,398 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,399 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,399 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,400 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_8m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,401 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components-shared.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,402 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/html/dash_html_components.v2_0_15m1744498784.min.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,430 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,430 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,432 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,432 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components-shared.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,434 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,434 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/html/dash_html_components.v2_0_15m1744498784.min.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,437 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,437 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_8m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,443 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-04-13 04:34:52,444 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-04-13 04:34:52,569 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-13 04:34:52,598 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,598 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,600 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components-shared.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,601 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,603 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,605 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,607 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/html/dash_html_components.v2_0_15m1744498784.min.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,608 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_8m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,659 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,660 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,668 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,669 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/dcc/dash_core_components-shared.v2_12_1m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,676 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,677 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/html/dash_html_components.v2_0_15m1744498784.min.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,682 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:34:52,682 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "[31m[1mGET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_8m1744498783.js HTTP/1.1[0m" 429 -
+2025-04-13 04:34:52,697 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-04-13 04:34:52,698 - 127.0.0.1 - - [13/Apr/2025 04:34:52] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-04-13 04:34:53,088 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/
+2025-04-13 04:34:53,089 - 127.0.0.1 - - [13/Apr/2025 04:34:53] "[31m[1mGET /dashboard/ HTTP/1.1[0m" 429 -
+2025-04-13 04:34:53,343 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/
+2025-04-13 04:34:53,344 - 127.0.0.1 - - [13/Apr/2025 04:34:53] "[31m[1mGET /dashboard/ HTTP/1.1[0m" 429 -
+2025-04-13 04:34:54,321 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/
+2025-04-13 04:34:54,321 - 127.0.0.1 - - [13/Apr/2025 04:34:54] "[31m[1mGET /dashboard/ HTTP/1.1[0m" 429 -
+2025-04-13 04:34:54,818 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/
+2025-04-13 04:34:54,819 - 127.0.0.1 - - [13/Apr/2025 04:34:54] "[31m[1mGET /dashboard/ HTTP/1.1[0m" 429 -
+2025-04-13 04:35:15,625 - 127.0.0.1 - - [13/Apr/2025 04:35:15] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-13 04:35:15,639 - 127.0.0.1 - - [13/Apr/2025 04:35:15] "GET /dashboard/_dash-component-suites/dash/dcc/dash_core_components-shared.v2_12_1m1744498783.js HTTP/1.1" 200 -
+2025-04-13 04:35:15,640 - 127.0.0.1 - - [13/Apr/2025 04:35:15] "GET /dashboard/_dash-component-suites/dash/dcc/dash_core_components.v2_12_1m1744498783.js HTTP/1.1" 200 -
+2025-04-13 04:35:15,640 - 127.0.0.1 - - [13/Apr/2025 04:35:15] "GET /dashboard/_dash-component-suites/dash/html/dash_html_components.v2_0_15m1744498784.min.js HTTP/1.1" 200 -
+2025-04-13 04:35:15,640 - 127.0.0.1 - - [13/Apr/2025 04:35:15] "GET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_8m1744498783.js HTTP/1.1" 200 -
+2025-04-13 04:35:15,698 - 127.0.0.1 - - [13/Apr/2025 04:35:15] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-04-13 04:35:15,699 - 127.0.0.1 - - [13/Apr/2025 04:35:15] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-04-13 04:35:15,714 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-component-suites/<string:package_name>/<path:fingerprinted_path>
+2025-04-13 04:35:15,715 - 127.0.0.1 - - [13/Apr/2025 04:35:15] "[31m[1mGET /dashboard/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 429 -
+2025-04-13 04:35:15,715 - 127.0.0.1 - - [13/Apr/2025 04:35:15] "GET /dashboard/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2025-04-13 04:35:15,716 - 127.0.0.1 - - [13/Apr/2025 04:35:15] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-04-13 04:35:16,928 - 127.0.0.1 - - [13/Apr/2025 04:35:16] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:35:46,832 - 127.0.0.1 - - [13/Apr/2025 04:35:46] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:35:55,157 - 127.0.0.1 - - [13/Apr/2025 04:35:55] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:36:16,465 - 127.0.0.1 - - [13/Apr/2025 04:36:16] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:36:17,835 - 127.0.0.1 - - [13/Apr/2025 04:36:17] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:36:46,795 - 127.0.0.1 - - [13/Apr/2025 04:36:46] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:37:16,820 - 127.0.0.1 - - [13/Apr/2025 04:37:16] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:37:46,787 - 127.0.0.1 - - [13/Apr/2025 04:37:46] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:38:16,830 - 127.0.0.1 - - [13/Apr/2025 04:38:16] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:38:46,809 - 127.0.0.1 - - [13/Apr/2025 04:38:46] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:39:16,817 - 127.0.0.1 - - [13/Apr/2025 04:39:16] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:39:39,792 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.100:8080
+2025-04-13 04:39:39,792 - [33mPress CTRL+C to quit[0m
+2025-04-13 04:39:45,820 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:39:45,825 - 127.0.0.1 - - [13/Apr/2025 04:39:45] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:39:55,048 - 127.0.0.1 - - [13/Apr/2025 04:39:55] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-13 04:39:55,064 - 127.0.0.1 - - [13/Apr/2025 04:39:55] "GET /dashboard/_dash-component-suites/dash/html/dash_html_components.v2_0_15m1744498784.min.js HTTP/1.1" 200 -
+2025-04-13 04:39:55,064 - 127.0.0.1 - - [13/Apr/2025 04:39:55] "GET /dashboard/_dash-component-suites/dash/dcc/dash_core_components-shared.v2_12_1m1744498783.js HTTP/1.1" 200 -
+2025-04-13 04:39:55,065 - 127.0.0.1 - - [13/Apr/2025 04:39:55] "GET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_8m1744498783.js HTTP/1.1" 200 -
+2025-04-13 04:39:55,118 - 127.0.0.1 - - [13/Apr/2025 04:39:55] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-04-13 04:39:55,119 - 127.0.0.1 - - [13/Apr/2025 04:39:55] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-04-13 04:39:55,134 - 127.0.0.1 - - [13/Apr/2025 04:39:55] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-04-13 04:39:55,134 - 127.0.0.1 - - [13/Apr/2025 04:39:55] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-04-13 04:39:55,142 - 127.0.0.1 - - [13/Apr/2025 04:39:55] "GET /dashboard/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+2025-04-13 04:39:55,336 - 127.0.0.1 - - [13/Apr/2025 04:39:55] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:40:16,809 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:40:16,810 - 127.0.0.1 - - [13/Apr/2025 04:40:16] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:40:26,234 - 127.0.0.1 - - [13/Apr/2025 04:40:26] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:40:46,809 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:40:46,810 - 127.0.0.1 - - [13/Apr/2025 04:40:46] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:40:56,228 - 127.0.0.1 - - [13/Apr/2025 04:40:56] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:41:16,806 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:41:16,806 - 127.0.0.1 - - [13/Apr/2025 04:41:16] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:41:26,226 - 127.0.0.1 - - [13/Apr/2025 04:41:26] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:41:46,810 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:41:46,811 - 127.0.0.1 - - [13/Apr/2025 04:41:46] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:41:56,223 - 127.0.0.1 - - [13/Apr/2025 04:41:56] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:42:16,812 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:42:16,815 - 127.0.0.1 - - [13/Apr/2025 04:42:16] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:42:26,225 - 127.0.0.1 - - [13/Apr/2025 04:42:26] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:42:46,811 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:42:46,813 - 127.0.0.1 - - [13/Apr/2025 04:42:46] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:42:56,243 - 127.0.0.1 - - [13/Apr/2025 04:42:56] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:43:16,844 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:43:16,845 - 127.0.0.1 - - [13/Apr/2025 04:43:16] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:43:26,242 - 127.0.0.1 - - [13/Apr/2025 04:43:26] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:43:46,831 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:43:46,832 - 127.0.0.1 - - [13/Apr/2025 04:43:46] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:43:56,230 - 127.0.0.1 - - [13/Apr/2025 04:43:56] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:44:16,812 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:44:16,814 - 127.0.0.1 - - [13/Apr/2025 04:44:16] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:44:26,221 - 127.0.0.1 - - [13/Apr/2025 04:44:26] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:44:46,812 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:44:46,814 - 127.0.0.1 - - [13/Apr/2025 04:44:46] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:44:56,255 - 127.0.0.1 - - [13/Apr/2025 04:44:56] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:45:16,820 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:45:16,822 - 127.0.0.1 - - [13/Apr/2025 04:45:16] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:45:26,357 - 127.0.0.1 - - [13/Apr/2025 04:45:26] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:45:46,845 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:45:46,846 - 127.0.0.1 - - [13/Apr/2025 04:45:46] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:45:56,116 - 127.0.0.1 - - [13/Apr/2025 04:45:56] "GET / HTTP/1.1" 200 -
+2025-04-13 04:45:56,132 - 127.0.0.1 - - [13/Apr/2025 04:45:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-13 04:45:56,259 - 127.0.0.1 - - [13/Apr/2025 04:45:56] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:46:05,691 - {"timestamp": "2025-04-13T04:46:05.691075", "ip_address": "127.0.0.1", "username": "hackerman ", "password": "iamhacker", "country": "Local", "city": "Local", "user_agent": "PC / Ubuntu / Firefox 137.0", "headers": {"Host": "localhost:8080", "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Content-Type": "application/x-www-form-urlencoded", "Content-Length": "38", "Origin": "http://localhost:8080", "Connection": "keep-alive", "Referer": "http://localhost:8080/", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+2025-04-13 04:46:08,196 - Error sending email alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-73bd230ea65sm3969886b3a.154 - gsmtp')
+2025-04-13 04:46:09,197 - 127.0.0.1 - - [13/Apr/2025 04:46:09] "POST /login HTTP/1.1" 200 -
+2025-04-13 04:46:09,249 - 127.0.0.1 - - [13/Apr/2025 04:46:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-13 04:46:14,527 - 127.0.0.1 - - [13/Apr/2025 04:46:14] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-13 04:46:14,610 - 127.0.0.1 - - [13/Apr/2025 04:46:14] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-04-13 04:46:14,610 - 127.0.0.1 - - [13/Apr/2025 04:46:14] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-04-13 04:46:14,629 - 127.0.0.1 - - [13/Apr/2025 04:46:14] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-04-13 04:46:14,630 - 127.0.0.1 - - [13/Apr/2025 04:46:14] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-04-13 04:46:14,632 - 127.0.0.1 - - [13/Apr/2025 04:46:14] "[36mGET /dashboard/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-04-13 04:46:15,432 - 127.0.0.1 - - [13/Apr/2025 04:46:15] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:46:16,822 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:46:16,823 - 127.0.0.1 - - [13/Apr/2025 04:46:16] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:46:26,481 - 127.0.0.1 - - [13/Apr/2025 04:46:26] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:46:46,457 - 127.0.0.1 - - [13/Apr/2025 04:46:46] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:46:47,442 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:46:47,443 - 127.0.0.1 - - [13/Apr/2025 04:46:47] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:46:56,520 - 127.0.0.1 - - [13/Apr/2025 04:46:56] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:47:16,579 - 127.0.0.1 - - [13/Apr/2025 04:47:16] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:47:18,057 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:47:18,059 - 127.0.0.1 - - [13/Apr/2025 04:47:18] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:47:26,624 - 127.0.0.1 - - [13/Apr/2025 04:47:26] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:47:47,679 - 127.0.0.1 - - [13/Apr/2025 04:47:47] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:47:48,044 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:47:48,044 - 127.0.0.1 - - [13/Apr/2025 04:47:48] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:47:56,640 - 127.0.0.1 - - [13/Apr/2025 04:47:56] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:48:18,089 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:48:18,102 - 127.0.0.1 - - [13/Apr/2025 04:48:18] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:48:18,102 - 127.0.0.1 - - [13/Apr/2025 04:48:18] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:48:26,624 - 127.0.0.1 - - [13/Apr/2025 04:48:26] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:48:48,043 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:48:48,044 - 127.0.0.1 - - [13/Apr/2025 04:48:48] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:48:48,048 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:48:48,049 - 127.0.0.1 - - [13/Apr/2025 04:48:48] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:48:56,730 - 127.0.0.1 - - [13/Apr/2025 04:48:56] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:49:18,055 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:49:18,056 - 127.0.0.1 - - [13/Apr/2025 04:49:18] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:49:19,544 - 127.0.0.1 - - [13/Apr/2025 04:49:19] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:49:27,549 - 127.0.0.1 - - [13/Apr/2025 04:49:27] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:49:48,047 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:49:48,049 - 127.0.0.1 - - [13/Apr/2025 04:49:48] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:49:49,513 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:49:49,514 - 127.0.0.1 - - [13/Apr/2025 04:49:49] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:49:57,730 - 127.0.0.1 - - [13/Apr/2025 04:49:57] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:50:18,043 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:50:18,045 - 127.0.0.1 - - [13/Apr/2025 04:50:18] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:50:19,582 - 127.0.0.1 - - [13/Apr/2025 04:50:19] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:50:28,904 - 127.0.0.1 - - [13/Apr/2025 04:50:28] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:50:48,044 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:50:48,045 - 127.0.0.1 - - [13/Apr/2025 04:50:48] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:50:50,066 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:50:50,067 - 127.0.0.1 - - [13/Apr/2025 04:50:50] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:50:58,971 - 127.0.0.1 - - [13/Apr/2025 04:50:58] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:51:18,045 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:51:18,046 - 127.0.0.1 - - [13/Apr/2025 04:51:18] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:51:20,139 - 127.0.0.1 - - [13/Apr/2025 04:51:20] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:51:29,573 - 127.0.0.1 - - [13/Apr/2025 04:51:29] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:51:48,044 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:51:48,045 - 127.0.0.1 - - [13/Apr/2025 04:51:48] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:51:50,074 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:51:50,074 - 127.0.0.1 - - [13/Apr/2025 04:51:50] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:51:59,924 - 127.0.0.1 - - [13/Apr/2025 04:51:59] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:52:18,040 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:52:18,041 - 127.0.0.1 - - [13/Apr/2025 04:52:18] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:52:20,134 - 127.0.0.1 - - [13/Apr/2025 04:52:20] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:52:29,920 - 127.0.0.1 - - [13/Apr/2025 04:52:29] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:52:48,045 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:52:48,047 - 127.0.0.1 - - [13/Apr/2025 04:52:48] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:52:50,073 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:52:50,074 - 127.0.0.1 - - [13/Apr/2025 04:52:50] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:52:59,949 - 127.0.0.1 - - [13/Apr/2025 04:52:59] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:53:18,047 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:53:18,048 - 127.0.0.1 - - [13/Apr/2025 04:53:18] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:53:21,157 - 127.0.0.1 - - [13/Apr/2025 04:53:21] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:53:30,281 - 127.0.0.1 - - [13/Apr/2025 04:53:30] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:53:48,041 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:53:48,042 - 127.0.0.1 - - [13/Apr/2025 04:53:48] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:53:51,080 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:53:51,082 - 127.0.0.1 - - [13/Apr/2025 04:53:51] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:54:00,269 - 127.0.0.1 - - [13/Apr/2025 04:54:00] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:54:19,198 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:54:19,199 - 127.0.0.1 - - [13/Apr/2025 04:54:19] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:54:21,163 - 127.0.0.1 - - [13/Apr/2025 04:54:21] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:54:30,268 - 127.0.0.1 - - [13/Apr/2025 04:54:30] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:54:49,200 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:54:49,201 - 127.0.0.1 - - [13/Apr/2025 04:54:49] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:54:51,079 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:54:51,079 - 127.0.0.1 - - [13/Apr/2025 04:54:51] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:55:00,325 - 127.0.0.1 - - [13/Apr/2025 04:55:00] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:55:19,202 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:55:19,203 - 127.0.0.1 - - [13/Apr/2025 04:55:19] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:55:22,307 - 127.0.0.1 - - [13/Apr/2025 04:55:22] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:55:30,286 - 127.0.0.1 - - [13/Apr/2025 04:55:30] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:55:49,200 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:55:49,201 - 127.0.0.1 - - [13/Apr/2025 04:55:49] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:55:52,243 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:55:52,243 - 127.0.0.1 - - [13/Apr/2025 04:55:52] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:56:00,271 - 127.0.0.1 - - [13/Apr/2025 04:56:00] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:56:19,201 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:56:19,203 - 127.0.0.1 - - [13/Apr/2025 04:56:19] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:56:22,384 - 127.0.0.1 - - [13/Apr/2025 04:56:22] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:56:30,262 - 127.0.0.1 - - [13/Apr/2025 04:56:30] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:56:49,201 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:56:49,203 - 127.0.0.1 - - [13/Apr/2025 04:56:49] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:56:52,311 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:56:52,311 - 127.0.0.1 - - [13/Apr/2025 04:56:52] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:57:00,196 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:57:00,197 - 127.0.0.1 - - [13/Apr/2025 04:57:00] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:57:19,202 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:57:19,203 - 127.0.0.1 - - [13/Apr/2025 04:57:19] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:57:22,410 - 127.0.0.1 - - [13/Apr/2025 04:57:22] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:57:30,262 - 127.0.0.1 - - [13/Apr/2025 04:57:30] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:57:49,200 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:57:49,202 - 127.0.0.1 - - [13/Apr/2025 04:57:49] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:57:52,368 - 127.0.0.1 - - [13/Apr/2025 04:57:52] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:58:00,201 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:58:00,202 - 127.0.0.1 - - [13/Apr/2025 04:58:00] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:58:19,198 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:58:19,199 - 127.0.0.1 - - [13/Apr/2025 04:58:19] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:58:21,180 - 192.168.0.100 - - [13/Apr/2025 04:58:21] "GET / HTTP/1.1" 200 -
+2025-04-13 04:58:21,195 - 192.168.0.100 - - [13/Apr/2025 04:58:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-13 04:58:21,205 - 192.168.0.100 - - [13/Apr/2025 04:58:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-13 04:58:23,279 - 127.0.0.1 - - [13/Apr/2025 04:58:23] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:58:30,424 - 127.0.0.1 - - [13/Apr/2025 04:58:30] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:58:47,152 - 192.168.0.104 - - [13/Apr/2025 04:58:47] "GET / HTTP/1.1" 200 -
+2025-04-13 04:58:47,285 - 192.168.0.104 - - [13/Apr/2025 04:58:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-13 04:58:47,365 - 192.168.0.104 - - [13/Apr/2025 04:58:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-13 04:58:49,202 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:58:49,203 - 127.0.0.1 - - [13/Apr/2025 04:58:49] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 04:58:53,278 - 127.0.0.1 - - [13/Apr/2025 04:58:53] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:58:54,007 - {"timestamp": "2025-04-13T04:58:54.007206", "ip_address": "192.168.0.104", "username": "nightstarx1x", "password": "124", "country": "Unknown", "city": "Unknown", "user_agent": "K / Android 10 / Chrome Mobile 135.0.0", "headers": {"Host": "192.168.0.100:8080", "Connection": "keep-alive", "Content-Length": "34", "Cache-Control": "max-age=0", "Origin": "http://192.168.0.100:8080", "Content-Type": "application/x-www-form-urlencoded", "Upgrade-Insecure-Requests": "1", "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7", "Referer": "http://192.168.0.100:8080/", "Accept-Encoding": "gzip, deflate", "Accept-Language": "en-US,en;q=0.9"}}
+2025-04-13 04:58:56,457 - Error sending email alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-73bd21c2119sm3939349b3a.40 - gsmtp')
+2025-04-13 04:58:57,458 - 192.168.0.104 - - [13/Apr/2025 04:58:57] "POST /login HTTP/1.1" 200 -
+2025-04-13 04:58:57,597 - 192.168.0.104 - - [13/Apr/2025 04:58:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-13 04:59:00,445 - 127.0.0.1 - - [13/Apr/2025 04:59:00] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:59:01,106 - 127.0.0.1 - - [13/Apr/2025 04:59:01] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-13 04:59:01,120 - 127.0.0.1 - - [13/Apr/2025 04:59:01] "GET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_8m1744498783.js HTTP/1.1" 200 -
+2025-04-13 04:59:01,182 - 127.0.0.1 - - [13/Apr/2025 04:59:01] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-04-13 04:59:01,183 - 127.0.0.1 - - [13/Apr/2025 04:59:01] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-04-13 04:59:01,199 - 127.0.0.1 - - [13/Apr/2025 04:59:01] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-04-13 04:59:01,200 - 127.0.0.1 - - [13/Apr/2025 04:59:01] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-04-13 04:59:01,202 - 127.0.0.1 - - [13/Apr/2025 04:59:01] "[36mGET /dashboard/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-04-13 04:59:02,214 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:59:02,215 - 127.0.0.1 - - [13/Apr/2025 04:59:02] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:59:15,967 - 127.0.0.1 - - [13/Apr/2025 04:59:15] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-13 04:59:16,050 - 127.0.0.1 - - [13/Apr/2025 04:59:16] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-04-13 04:59:16,051 - 127.0.0.1 - - [13/Apr/2025 04:59:16] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-04-13 04:59:16,075 - 127.0.0.1 - - [13/Apr/2025 04:59:16] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-04-13 04:59:16,075 - 127.0.0.1 - - [13/Apr/2025 04:59:16] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-04-13 04:59:16,081 - 127.0.0.1 - - [13/Apr/2025 04:59:16] "[36mGET /dashboard/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-04-13 04:59:16,084 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:59:16,084 - 127.0.0.1 - - [13/Apr/2025 04:59:16] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:59:19,322 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 04:59:19,322 - 127.0.0.1 - - [13/Apr/2025 04:59:19] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 04:59:30,424 - 127.0.0.1 - - [13/Apr/2025 04:59:30] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:59:47,598 - 127.0.0.1 - - [13/Apr/2025 04:59:47] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 04:59:50,075 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 04:59:50,077 - 127.0.0.1 - - [13/Apr/2025 04:59:50] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 05:00:00,430 - 127.0.0.1 - - [13/Apr/2025 05:00:00] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:00:17,572 - 127.0.0.1 - - [13/Apr/2025 05:00:17] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:00:21,180 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:00:21,181 - 127.0.0.1 - - [13/Apr/2025 05:00:21] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:00:30,760 - 127.0.0.1 - - [13/Apr/2025 05:00:30] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:00:47,718 - 127.0.0.1 - - [13/Apr/2025 05:00:47] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:00:51,164 - Exception on /dashboard/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1255, in dispatch
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangchen/Documents/honeypotEL/venv/lib/python3.12/site-packages/dash/dash.py", line 1306, in dispatch
+    raise KeyError(msg) from missing_callback_function
+KeyError: "Callback function not found for output '..total-attempts.children...unique-ips.children...common-username.children...time-series-plot.figure...world-map-plot.figure...username-password-patterns.figure..', perhaps you forgot to prepend the '@'?"
+2025-04-13 05:00:51,166 - 127.0.0.1 - - [13/Apr/2025 05:00:51] "[35m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 500 -
+2025-04-13 05:01:00,779 - 127.0.0.1 - - [13/Apr/2025 05:01:00] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:01:17,683 - 127.0.0.1 - - [13/Apr/2025 05:01:17] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:01:21,165 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:01:21,166 - 127.0.0.1 - - [13/Apr/2025 05:01:21] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:01:31,177 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:01:31,177 - 127.0.0.1 - - [13/Apr/2025 05:01:31] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:01:47,618 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:01:47,619 - 127.0.0.1 - - [13/Apr/2025 05:01:47] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:01:51,165 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:01:51,166 - 127.0.0.1 - - [13/Apr/2025 05:01:51] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:02:01,706 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:02:01,706 - 127.0.0.1 - - [13/Apr/2025 05:02:01] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:02:17,607 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:02:17,607 - 127.0.0.1 - - [13/Apr/2025 05:02:17] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:02:21,473 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:02:21,474 - 127.0.0.1 - - [13/Apr/2025 05:02:21] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:02:31,703 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:02:31,704 - 127.0.0.1 - - [13/Apr/2025 05:02:31] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:02:47,656 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:02:47,657 - 127.0.0.1 - - [13/Apr/2025 05:02:47] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:02:51,475 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:02:51,475 - 127.0.0.1 - - [13/Apr/2025 05:02:51] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:03:01,704 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:03:01,705 - 127.0.0.1 - - [13/Apr/2025 05:03:01] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:03:17,610 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:03:17,610 - 127.0.0.1 - - [13/Apr/2025 05:03:17] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:03:21,969 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:03:21,970 - 127.0.0.1 - - [13/Apr/2025 05:03:21] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:03:31,701 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:03:31,701 - 127.0.0.1 - - [13/Apr/2025 05:03:31] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:03:47,897 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:03:47,898 - 127.0.0.1 - - [13/Apr/2025 05:03:47] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:03:52,395 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:03:52,396 - 127.0.0.1 - - [13/Apr/2025 05:03:52] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:04:01,735 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:04:01,736 - 127.0.0.1 - - [13/Apr/2025 05:04:01] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:04:17,899 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:04:17,899 - 127.0.0.1 - - [13/Apr/2025 05:04:17] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:04:22,398 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:04:22,398 - 127.0.0.1 - - [13/Apr/2025 05:04:22] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:04:31,703 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:04:31,703 - 127.0.0.1 - - [13/Apr/2025 05:04:31] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:04:47,881 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:04:47,882 - 127.0.0.1 - - [13/Apr/2025 05:04:47] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:04:52,579 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:04:52,580 - 127.0.0.1 - - [13/Apr/2025 05:04:52] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:05:01,738 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:05:01,739 - 127.0.0.1 - - [13/Apr/2025 05:05:01] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:05:18,706 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:05:18,707 - 127.0.0.1 - - [13/Apr/2025 05:05:18] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:05:22,588 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:05:22,588 - 127.0.0.1 - - [13/Apr/2025 05:05:22] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:05:32,387 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:05:32,388 - 127.0.0.1 - - [13/Apr/2025 05:05:32] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:05:48,713 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:05:48,715 - 127.0.0.1 - - [13/Apr/2025 05:05:48] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:05:53,865 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:05:53,866 - 127.0.0.1 - - [13/Apr/2025 05:05:53] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:06:03,096 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:06:03,097 - 127.0.0.1 - - [13/Apr/2025 05:06:03] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:06:18,732 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:06:18,733 - 127.0.0.1 - - [13/Apr/2025 05:06:18] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:06:23,864 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:06:23,865 - 127.0.0.1 - - [13/Apr/2025 05:06:23] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:06:33,097 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:06:33,098 - 127.0.0.1 - - [13/Apr/2025 05:06:33] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:06:49,313 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:06:49,314 - 127.0.0.1 - - [13/Apr/2025 05:06:49] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:06:54,360 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:06:54,360 - 127.0.0.1 - - [13/Apr/2025 05:06:54] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:07:03,128 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:07:03,129 - 127.0.0.1 - - [13/Apr/2025 05:07:03] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:07:19,336 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:07:19,337 - 127.0.0.1 - - [13/Apr/2025 05:07:19] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:07:25,312 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:07:25,312 - 127.0.0.1 - - [13/Apr/2025 05:07:25] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:07:33,426 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:07:33,427 - 127.0.0.1 - - [13/Apr/2025 05:07:33] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:07:49,615 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:07:49,616 - 127.0.0.1 - - [13/Apr/2025 05:07:49] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:07:56,098 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:07:56,099 - 127.0.0.1 - - [13/Apr/2025 05:07:56] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:08:03,429 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:08:03,430 - 127.0.0.1 - - [13/Apr/2025 05:08:03] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:08:19,617 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:08:19,617 - 127.0.0.1 - - [13/Apr/2025 05:08:19] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:08:26,096 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:08:26,097 - 127.0.0.1 - - [13/Apr/2025 05:08:26] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:08:33,426 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:08:33,428 - 127.0.0.1 - - [13/Apr/2025 05:08:33] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:08:49,618 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:08:49,618 - 127.0.0.1 - - [13/Apr/2025 05:08:49] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:08:56,097 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:08:56,098 - 127.0.0.1 - - [13/Apr/2025 05:08:56] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:09:03,458 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:09:03,459 - 127.0.0.1 - - [13/Apr/2025 05:09:03] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:09:19,616 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:09:19,617 - 127.0.0.1 - - [13/Apr/2025 05:09:19] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:09:26,098 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:09:26,099 - 127.0.0.1 - - [13/Apr/2025 05:09:26] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:09:33,587 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:09:33,588 - 127.0.0.1 - - [13/Apr/2025 05:09:33] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:09:49,622 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:09:49,623 - 127.0.0.1 - - [13/Apr/2025 05:09:49] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:09:56,100 - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:09:56,101 - 127.0.0.1 - - [13/Apr/2025 05:09:56] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:10:03,588 - ratelimit 100 per 1 hour (127.0.0.1) exceeded at endpoint: /dashboard/_dash-update-component
+2025-04-13 05:10:03,589 - 127.0.0.1 - - [13/Apr/2025 05:10:03] "[31m[1mPOST /dashboard/_dash-update-component HTTP/1.1[0m" 429 -
+2025-04-13 05:21:53,612 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.100:8888
+2025-04-13 05:21:53,612 - [33mPress CTRL+C to quit[0m
+2025-04-13 05:22:18,672 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.100:8888
+2025-04-13 05:22:18,672 - [33mPress CTRL+C to quit[0m
+2025-04-13 05:23:21,432 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.100:8888
+2025-04-13 05:23:21,432 - [33mPress CTRL+C to quit[0m
+2025-04-13 05:23:46,564 - 127.0.0.1 - - [13/Apr/2025 05:23:46] "GET / HTTP/1.1" 200 -
+2025-04-13 05:23:46,572 - 127.0.0.1 - - [13/Apr/2025 05:23:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-13 05:23:46,582 - 127.0.0.1 - - [13/Apr/2025 05:23:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-13 05:24:17,954 - 192.168.0.104 - - [13/Apr/2025 05:24:17] "GET / HTTP/1.1" 200 -
+2025-04-13 05:24:18,261 - 192.168.0.104 - - [13/Apr/2025 05:24:18] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-13 05:24:18,356 - 192.168.0.104 - - [13/Apr/2025 05:24:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-13 05:24:26,135 - {"timestamp": "2025-04-13T05:24:26.134939", "ip_address": "192.168.0.104", "username": "wangchentt.cy23", "password": "cy@1266", "country": "Unknown", "city": "Unknown", "user_agent": "K / Android 10 / Chrome Mobile 135.0.0", "headers": {"Host": "192.168.0.100:8888", "Connection": "keep-alive", "Content-Length": "43", "Cache-Control": "max-age=0", "Origin": "http://192.168.0.100:8888", "Content-Type": "application/x-www-form-urlencoded", "Upgrade-Insecure-Requests": "1", "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7", "Referer": "http://192.168.0.100:8888/", "Accept-Encoding": "gzip, deflate", "Accept-Language": "en-US,en;q=0.9"}}
+2025-04-13 05:24:28,691 - Error sending email alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-306dd18580esm8414385a91.46 - gsmtp')
+2025-04-13 05:24:29,692 - 192.168.0.104 - - [13/Apr/2025 05:24:29] "POST /login HTTP/1.1" 200 -
+2025-04-13 05:24:29,926 - 192.168.0.104 - - [13/Apr/2025 05:24:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-13 05:24:39,182 - {"timestamp": "2025-04-13T05:24:39.182048", "ip_address": "127.0.0.1", "username": "hacker", "password": "2233", "country": "Local", "city": "Local", "user_agent": "PC / Ubuntu / Firefox 137.0", "headers": {"Host": "localhost:8888", "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Content-Type": "application/x-www-form-urlencoded", "Content-Length": "29", "Origin": "http://localhost:8888", "Connection": "keep-alive", "Referer": "http://localhost:8888/", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+2025-04-13 05:24:41,282 - Error sending email alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-306df08f63bsm8284232a91.24 - gsmtp')
+2025-04-13 05:24:42,284 - 127.0.0.1 - - [13/Apr/2025 05:24:42] "POST /login HTTP/1.1" 200 -
+2025-04-13 05:24:42,323 - 127.0.0.1 - - [13/Apr/2025 05:24:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-13 05:24:55,123 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2025-04-13 05:24:55,128 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-13 05:24:55,138 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /dashboard/_dash-component-suites/dash/deps/polyfill@7.v2_14_2m1744498783.12.1.min.js HTTP/1.1" 200 -
+2025-04-13 05:24:55,139 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /dashboard/_dash-component-suites/dash/deps/react@16.v2_14_2m1744498783.14.0.min.js HTTP/1.1" 200 -
+2025-04-13 05:24:55,141 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /dashboard/_dash-component-suites/dash/deps/prop-types@15.v2_14_2m1744498783.8.1.min.js HTTP/1.1" 200 -
+2025-04-13 05:24:55,142 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /dashboard/_dash-component-suites/dash/deps/react-dom@16.v2_14_2m1744498783.14.0.min.js HTTP/1.1" 200 -
+2025-04-13 05:24:55,144 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /dashboard/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v2_14_2m1744498783.min.js HTTP/1.1" 200 -
+2025-04-13 05:24:55,144 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /dashboard/_dash-component-suites/dash/dcc/dash_core_components.v2_12_1m1744498783.js HTTP/1.1" 200 -
+2025-04-13 05:24:55,146 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /dashboard/_dash-component-suites/dash/dcc/dash_core_components-shared.v2_12_1m1744498783.js HTTP/1.1" 200 -
+2025-04-13 05:24:55,146 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /dashboard/_dash-component-suites/dash/html/dash_html_components.v2_0_15m1744498784.min.js HTTP/1.1" 200 -
+2025-04-13 05:24:55,146 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_8m1744498783.js HTTP/1.1" 200 -
+2025-04-13 05:24:55,195 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-04-13 05:24:55,196 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-04-13 05:24:55,199 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /dashboard/_favicon.ico?v=2.14.2 HTTP/1.1" 200 -
+2025-04-13 05:24:55,208 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /dashboard/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2025-04-13 05:24:55,209 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-04-13 05:24:55,214 - 127.0.0.1 - - [13/Apr/2025 05:24:55] "GET /dashboard/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+2025-04-13 05:24:56,414 - 127.0.0.1 - - [13/Apr/2025 05:24:56] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:25:25,340 - 127.0.0.1 - - [13/Apr/2025 05:25:25] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:25:56,300 - 127.0.0.1 - - [13/Apr/2025 05:25:56] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:26:26,362 - 127.0.0.1 - - [13/Apr/2025 05:26:26] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:26:57,030 - 127.0.0.1 - - [13/Apr/2025 05:26:57] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:27:27,069 - 127.0.0.1 - - [13/Apr/2025 05:27:27] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:27:57,069 - 127.0.0.1 - - [13/Apr/2025 05:27:57] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:28:27,189 - 127.0.0.1 - - [13/Apr/2025 05:28:27] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:28:57,129 - 127.0.0.1 - - [13/Apr/2025 05:28:57] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:29:27,158 - 127.0.0.1 - - [13/Apr/2025 05:29:27] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:29:57,156 - 127.0.0.1 - - [13/Apr/2025 05:29:57] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:30:27,508 - 127.0.0.1 - - [13/Apr/2025 05:30:27] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:30:57,864 - 127.0.0.1 - - [13/Apr/2025 05:30:57] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:31:27,883 - 127.0.0.1 - - [13/Apr/2025 05:31:27] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:31:57,862 - 127.0.0.1 - - [13/Apr/2025 05:31:57] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:32:27,870 - 127.0.0.1 - - [13/Apr/2025 05:32:27] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:32:57,909 - 127.0.0.1 - - [13/Apr/2025 05:32:57] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:33:27,912 - 127.0.0.1 - - [13/Apr/2025 05:33:27] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:33:57,861 - 127.0.0.1 - - [13/Apr/2025 05:33:57] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:34:27,885 - 127.0.0.1 - - [13/Apr/2025 05:34:27] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:34:57,924 - 127.0.0.1 - - [13/Apr/2025 05:34:57] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:35:27,857 - 127.0.0.1 - - [13/Apr/2025 05:35:27] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:35:58,082 - 127.0.0.1 - - [13/Apr/2025 05:35:58] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:36:28,093 - 127.0.0.1 - - [13/Apr/2025 05:36:28] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:36:58,117 - 127.0.0.1 - - [13/Apr/2025 05:36:58] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:37:28,048 - 127.0.0.1 - - [13/Apr/2025 05:37:28] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:37:58,065 - 127.0.0.1 - - [13/Apr/2025 05:37:58] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:38:28,080 - 127.0.0.1 - - [13/Apr/2025 05:38:28] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:38:58,062 - 127.0.0.1 - - [13/Apr/2025 05:38:58] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:39:28,556 - 127.0.0.1 - - [13/Apr/2025 05:39:28] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:39:58,580 - 127.0.0.1 - - [13/Apr/2025 05:39:58] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:40:28,543 - 127.0.0.1 - - [13/Apr/2025 05:40:28] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:40:58,541 - 127.0.0.1 - - [13/Apr/2025 05:40:58] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:41:28,557 - 127.0.0.1 - - [13/Apr/2025 05:41:28] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2025-04-13 05:41:58,587 - 127.0.0.1 - - [13/Apr/2025 05:41:58] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
