@@ -44,6 +44,7 @@ This section guides you through setting up and testing HONEYPOT-EL. Follow these
 - Clone the repository and install dependencies: `pip install -r requirements.txt`
 - Configure the `.env` file (e.g., email settings, API keys)
 - Start the server in debug mode: `python app.py`
+- you muight have to use 'source venv/bin/activate && python app.py'
 
 The server will run on `http://localhost:8888`.
 
