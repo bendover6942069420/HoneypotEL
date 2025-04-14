@@ -120,7 +120,10 @@ The server will run on `http://localhost:8888`.
 - Ensure the `.env` file is properly configured for email alerts and geolocation APIs
 - For external access, adjust firewall settings or use a public IP
 - The honeypot is designed to be safe, never allowing actual access
-
+## Incase of IP problems 
+- ip addr show | grep 'inet '
+- fuser -k 8888/tcp 2>/dev/null
+- cd /Location_of_files && source venv/bin/activate && python app.py --host 0.0.0.0 --port 8888
 ---
 
 This demonstration showcases HONEYPOT-EL’s ability to detect, log, and analyze intrusion attempts while providing real-time insights through its dashboard.
